@@ -21,34 +21,40 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Appliances appliances=new Appliances("Home tech",10);
-        System.out.println(appliances);
+//        Appliances appliances = new Appliances("Home tech", 10);
+//        System.out.println(appliances);
 
-        Appliances fridge=new Fridge("Beko",2018);
+        Tech fridge2 = new Fridge();
+        System.out.println(fridge2);
+
+        Appliances fridge = new Fridge("Beko", 2018);
         System.out.println(fridge);
 
-        Appliances WashingMachine=new WashingMachine("LG",2022);
+        Fridge fridge1 = new Fridge();
+        System.out.println(fridge1);
+
+        Appliances WashingMachine = new WashingMachine("LG", 2022);
         System.out.println(WashingMachine);
 
-        Military military1=new Military("voen",1945,"what",10022022);
+        Military military1 = new Military("voen", 1945, "what", 10022022);
         System.out.println(military1);
 
-        Military tank=new Tank("WorldOfTanks Kv-2",2019);
+        Military tank = new Tank("WorldOfTanks Kv-2", 2019);
         System.out.println(tank);
 
-        Military military=new Gun("ak47",1990);
+        Military military = new Gun("ak47", 1990);
         System.out.println(military);
 
-        Vehicle vehicle=new Vehicle("transport",2001);
+        Vehicle vehicle = new Vehicle("transport", 2001);
         System.out.println(vehicle);
 
-        Vehicle car =new Car("bmw",1990);
+        Vehicle car = new Car("bmw", 1990);
         System.out.println(car);
 
-        Vehicle truck=new Truck("volva",2003);
+        Vehicle truck = new Truck("volva", 2003);
         System.out.println(truck);
 
-        Tech tech=new Tech("It",2023);
+        Tech tech = new Tech("It", 2023);
         System.out.println(tech);
     }
 }

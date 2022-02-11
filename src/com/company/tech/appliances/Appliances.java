@@ -2,7 +2,7 @@ package com.company.tech.appliances;
 
 import com.company.tech.Tech;
 
-//Техника
+//Техника Бытовая
 public class Appliances extends Tech {
     private String name;
     private int year;
@@ -12,6 +12,12 @@ public class Appliances extends Tech {
 
     public Appliances(String name, int year) {
         this.name = name;
+        this.year = year;
+    }
+
+    public Appliances(String name, int model, String name1, int year) {
+        super(name, model);
+        this.name = name1;
         this.year = year;
     }
 

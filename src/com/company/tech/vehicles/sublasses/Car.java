@@ -10,7 +10,8 @@ public class Car extends Vehicle {
     public Car() {
     }
 
-    public Car(String name, int year) {
+    public Car(String name, int year)
+    {super(name,year);
         this.name = name;
         this.year = year;
     }
@@ -32,12 +33,4 @@ public class Car extends Vehicle {
 
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "name='" + name + '\'' +
-                ", model=" + model +
-                ", year=" + year +
-                "} " + super.toString();
-    }
 }

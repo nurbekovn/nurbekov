@@ -14,6 +14,12 @@ public class Fridge extends Appliances {
         this.year = year;
     }
 
+    public Fridge(String name, int model, String name1, int year, String name2, int year1) {
+        super(name, model, name1, year);
+        this.name = name2;
+        this.year = year1;
+    }
+
     public String getName() {
         return name;
     }

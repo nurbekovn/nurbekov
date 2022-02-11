@@ -8,7 +8,7 @@ public class Military extends Tech {
 
     public Military() {
     }
-
+    
     public Military(String name, int age) {
         this.name = name;
         this.age = age;
@@ -34,8 +34,6 @@ public class Military extends Tech {
         super(name, model);
         this.name = name1;
         this.age = age;
-
-
     }
 
     @Override

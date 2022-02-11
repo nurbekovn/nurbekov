@@ -33,7 +33,6 @@ public class Vehicle extends Tech {
          this.year = year;
 
  }
-
     @Override
     public String toString() {
         return "Vehicle{" +
